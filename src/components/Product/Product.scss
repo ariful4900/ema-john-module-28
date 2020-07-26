@@ -1,0 +1,19 @@
+@import '../../assets/scss/_variables.scss';
+.product{
+    display:flex;
+    border-bottom: 1px solid $border;
+    margin:0 5px 10px 0;
+    padding-bottom: 10px;
+    
+   
+
+};
+.main-button{
+    @extend %mainBtn ;
+    
+
+}
+.product-name{
+    color: $productHeading;
+    font-weight: 400;
+}

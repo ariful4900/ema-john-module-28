@@ -1,0 +1,15 @@
+@import '../../assets/scss/_variables.scss';
+// @import '../../index.scss';
+// @import '../Product/Product.scss';
+
+.topFixed{
+    position: sticky;
+    top: 0;
+    margin:0 auto;
+    width:100%;
+}
+.summary-heading{
+    text-align: center;
+    width:100%;
+    display: block;
+}

@@ -1,0 +1,17 @@
+$border:lightgray;
+$navBg:#000;
+$linkColor:#fff;
+$btnText:#1d1d50;
+$linkHoverBg:gray;
+$productHeading:blue;
+$btnColor:goldenrod;
+
+%mainBtn {
+    background-color: $btnColor;
+    width:150px;
+    height: 30px;
+    border:1px solid $border;
+    border-radius: 5px;
+    color:$btnText;
+    cursor: pointer;
+}

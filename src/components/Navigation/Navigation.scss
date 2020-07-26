@@ -1,0 +1,17 @@
+
+
+@import '../../assets/scss/_variables.scss';
+nav{
+    background-color: $navBg;
+    line-height: 40px;
+    a{
+        color:$linkColor;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 20px;
+        padding: 5px;
+        &:hover{
+            background-color: $linkHoverBg;
+        }
+    }
+}
