@@ -2,7 +2,7 @@ import React from 'react';
 import './ReviewItem.scss'
 
 const ReviewItem = (props) => {
-    console.log(props);
+    // console.log(props);
     const { name, quantity, key, price} = props.product;
 
     const reviewItemStyle={

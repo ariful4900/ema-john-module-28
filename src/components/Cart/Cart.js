@@ -1,11 +1,9 @@
 import React from 'react';
 
 import './Cart.scss';
-import { useAuth } from '../Login/useAuth';
 
 const Cart = (props) => {
-    const auth = useAuth();
-    console.log(auth.user)
+    // console.log(auth.user)
     
     // const totalPrice = cart.reduce((total, prd) => total + prd.price, 0)
     const { cart } = props;
